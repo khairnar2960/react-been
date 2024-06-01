@@ -1,4 +1,4 @@
-# ReactSlice
+# ReactBeen
 ![npm](https://img.shields.io/npm/v/react-been) ![npm bundle size (version)](https://img.shields.io/bundlephobia/min/react-been/1.0.0) ![GitHub release (by tag)](https://img.shields.io/github/downloads/khairnar2960/react-been/stable/total) ![jsDelivr hits (npm)](https://img.shields.io/jsdelivr/npm/hy/react-been) ![npm](https://img.shields.io/npm/dy/react-been) ![GitHub issues](https://img.shields.io/github/issues-raw/khairnar2960/react-been) ![GitHub closed issues](https://img.shields.io/github/issues-closed-raw/khairnar2960/react-been)
 
 A Redux-like state management toolkit for React with slice-based state handling.
