@@ -1,0 +1,17 @@
+# Dependency directories
+node_modules/
+
+# Environment files
+.env
+
+# Build files
+/lib
+
+# IDE and editor files
+.idea/
+.vscode/
+*.sublime-*
+
+# OS generated files
+.DS_Store
+Thumbs.db
