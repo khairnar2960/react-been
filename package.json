@@ -1,6 +1,6 @@
 {
   "name": "react-been",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "A Redux-like state management toolkit for React with slice-based state handling.",
   "main": "src/index.js",
   "files": [
