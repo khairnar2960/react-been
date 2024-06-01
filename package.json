@@ -1,5 +1,5 @@
 {
-  "name": "react-slice",
+  "name": "react-been",
   "version": "1.0.0",
   "description": "A Redux-like state management toolkit for React with slice-based state handling.",
   "main": "src/index.js",
@@ -11,7 +11,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/khairnar2960/react-slice.git"
+    "url": "git+https://github.com/khairnar2960/react-been.git"
   },
   "keywords": [
     "react",
@@ -23,9 +23,9 @@
   "author": "Harshal Khairnar",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/khairnar2960/react-slice/issues"
+    "url": "https://github.com/khairnar2960/react-been/issues"
   },
-  "homepage": "https://github.com/khairnar2960/react-slice#readme",
+  "homepage": "https://github.com/khairnar2960/react-been#readme",
   "peerDependencies": {
     "react": "^17.0.0 || ^18.3.1",
     "react-dom": "^17.0.0 || ^18.3.1"

@@ -1,5 +1,5 @@
 # ReactSlice
-![npm](https://img.shields.io/npm/v/react-slice) ![npm bundle size (version)](https://img.shields.io/bundlephobia/min/react-slice/1.0.0) ![GitHub release (by tag)](https://img.shields.io/github/downloads/khairnar2960/react-slice/stable/total) ![jsDelivr hits (npm)](https://img.shields.io/jsdelivr/npm/hy/react-slice) ![npm](https://img.shields.io/npm/dy/react-slice) ![GitHub issues](https://img.shields.io/github/issues-raw/khairnar2960/react-slice) ![GitHub closed issues](https://img.shields.io/github/issues-closed-raw/khairnar2960/react-slice)
+![npm](https://img.shields.io/npm/v/react-been) ![npm bundle size (version)](https://img.shields.io/bundlephobia/min/react-been/1.0.0) ![GitHub release (by tag)](https://img.shields.io/github/downloads/khairnar2960/react-been/stable/total) ![jsDelivr hits (npm)](https://img.shields.io/jsdelivr/npm/hy/react-been) ![npm](https://img.shields.io/npm/dy/react-been) ![GitHub issues](https://img.shields.io/github/issues-raw/khairnar2960/react-been) ![GitHub closed issues](https://img.shields.io/github/issues-closed-raw/khairnar2960/react-been)
 
 A Redux-like state management toolkit for React with slice-based state handling.
 
@@ -8,7 +8,7 @@ A Redux-like state management toolkit for React with slice-based state handling.
 You can install the package via npm:
 
 ```sh
-npm install react-slice
+npm install react-been
 ```
 
 ## Usage
@@ -17,7 +17,7 @@ npm install react-slice
 
 ```javascript
 // rolesSlice.js
-import { createSlice } from 'react-slice';
+import { createSlice } from 'react-been';
 
 const rolesSlice = createSlice({
   name: 'roles',
@@ -50,7 +50,7 @@ export default rolesSlice.reducer;
 
 ```javascript
 // store.js
-import { configureStore } from 'react-slice';
+import { configureStore } from 'react-been';
 import rolesReducer from './rolesSlice';
 
 export const store = configureStore({
@@ -73,7 +73,7 @@ export const fetchRoles = () => {
 // rolesActions.js
 import { fetchRoles } from './rolesAPI';
 import { setRoles, setLoading, setError } from './rolesSlice';
-import { createAsyncAction } from 'react-slice';
+import { createAsyncAction } from 'react-been';
 
 export const getRoles = createAsyncAction(fetchRoles, {
   startAction: () => setLoading(true),
@@ -88,7 +88,7 @@ export const getRoles = createAsyncAction(fetchRoles, {
 // App.js
 import React from 'react';
 import ReactDOM from 'react-dom';
-import { StoreProvider, useSelector, useDispatch } from 'react-slice';
+import { StoreProvider, useSelector, useDispatch } from 'react-been';
 import { store } from './store';
 import { getRoles } from './rolesActions';
 
